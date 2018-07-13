@@ -13,8 +13,6 @@ if (process.env.TEST_DATABASE) {
   app.use(morgan('dev'));
 };
 
-//add comment here for git testing
-
 app.use(bodyParser.json());
 app.use(cors());
 app.use(errorhandler());
