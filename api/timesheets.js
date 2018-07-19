@@ -173,6 +173,5 @@ timesheetsRouter.delete('/:timesheetId', (req, res, next) => {
   });
 });
 
-
 //Export the router
 module.exports = timesheetsRouter;
