@@ -1,4 +1,5 @@
 //Utility to output the req object while testing
+// moving notes up here 
 const reqConsoleOutput = (pgm, req) => {
   if (process.env.TEST_DATABASE) {
     console.log(``);
@@ -21,9 +22,3 @@ const reqConsoleOutput = (pgm, req) => {
 };
 
 exports.reqConsoleOutput = reqConsoleOutput;
-
-// some new notes
-
-// some more new notes
-
-// added notes for dev branch

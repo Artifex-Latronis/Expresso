@@ -1,3 +1,5 @@
+// adding some notes here as well
+
 const express = require('express');
 const cors = require('cors');
 const errorhandler = require('errorhandler');
